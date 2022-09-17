@@ -4,7 +4,7 @@
         <script src="calc.js"></script>
     </head>
     <body>
-        <h1>CWDT Build Калькулятор</h1>
+        <h1>CWDT Билд Калькулятор</h1>
 
         <div class="container">
             <div class="calcbox">
@@ -12,10 +12,10 @@
                 <label for="life">Life</label>
                 <input type="number" id="life" name="life" value="2510">
                 <br />
-                <label for="energyShield">Energy Shield</label>
+                <label for="energyShield">Энергетический щит</label>
                 <input type="number" id="energyShield" name="energyShield" value="0">
                 <br />
-                <label for="chaos">Chaos Resistance</label>
+                <label for="chaos">Сопротивление хаосу</label>
                 <input type="number" id="chaos" name="chaos" value="-60">
                 <br />
                 <label for="ringCount">Heartbound Loop rings</label>
@@ -49,14 +49,14 @@
 
                 <br />
                 <br />
-                <text>Skeleton Damage</text>
+                <text>Скелетон дамага</text>
                 <text id ="skelDamage">computing..</text>
                 <br />
                 <text>Forbidden Rite Damage</text>
                 <text id ="frDamage">computing..</text>
                 <br />
 
-                <text>Total Damage</text>
+                <text>Общий урон</text>
                 <text id="totalDamage">computing..</text>
                 <br />
                 <br />
@@ -71,9 +71,9 @@
                 <input type="radio" id="others" name="ascendancy" value="others">Others</input>
                 <br />
 
-                <label for="flasks">Flasks</label>
-                <input type="radio" id="2flask" name="flasks" value="2">2</input>
-                <input type="radio" id="3flask" name="flasks" value="3" checked="checked">3</input>
+                <label for="flasks">Баночки</label>
+                <input type="radio" id="2flask" name="flasks" value="2" checked="checked">2</input>
+                <input type="radio" id="3flask" name="flasks" value="3">3</input>
                 <input type="radio" id="4flask" name="flasks" value="4">4</input>
                 <br />
 
@@ -108,9 +108,9 @@
 
         <div class="info">
             <text>
-            If your Ward is less than Forbidden rite damage, then don't use Mind Over Matter, it may cause loop issue.
+                Если ваш оберег меньше урона Запретного обряда, то не используйте Разум важнее материи, это может вызвать проблемы с циклом.
             <br/>
-            Try to get flask coefficent above 1.05
+                Попробуйте получить коэффициент фляги выше 1,05
             </text>
         </div>
 
