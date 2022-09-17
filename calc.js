@@ -57,12 +57,12 @@ function checkLoop() {
     if(totalDamage >= threshold) {status = true}
 
     if(status == true) {
-        document.getElementById("status").innerHTML= "LOOP WORKS";
+        document.getElementById("status").innerHTML= "Петля - Робит!";
         document.getElementById("status").style.color = "lime";
         document.getElementById("status").style.fontWeight = "900";
 
     } else {
-        document.getElementById("status").innerHTML= "LOOP FAILS";
+        document.getElementById("status").innerHTML= "Петля - не робит";
         document.getElementById("status").style.color = "red";
         document.getElementById("status").style.fontWeight = "900";
    }
@@ -105,12 +105,12 @@ function checkLoop() {
 
    var result = (((4*flaskMultiplier/5)+(1/3)+ascCharges)*(1+(chargesGained/100))+0.075) / (olused*(1-reduced/100)/(olduration*(1+(duration/100))));
    if(result > 1.03 ) {
-        document.getElementById("fstatus").innerHTML= "FLASKS WORK!";
+        document.getElementById("fstatus").innerHTML= "Баночки Работают!";
         document.getElementById("fstatus").style.color = "lime";
         document.getElementById("fstatus").style.fontWeight = "900";
 
    } else {
-            document.getElementById("fstatus").innerHTML= "FLASKS FAIL";
+            document.getElementById("fstatus").innerHTML= "Делай меньше банок, не работает";
             document.getElementById("fstatus").style.color = "red";
             document.getElementById("fstatus").style.fontWeight = "900";
    }
